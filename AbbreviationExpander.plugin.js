@@ -1,4 +1,4 @@
-//META{"name":"test plugin"}*//
+//META{"name":"Abbreviation Expander"}*//
 
 /**
  * @name AbbreviationExpander
@@ -9,8 +9,6 @@
 
 const myCallback = mutations => {
 	for(let mutation of mutations){
-	// We only care about our button being removed
-	// Convert to array to allow array functions
 	const addedNodes = Array.from(mutation.addedNodes);
 	for(let addedNode of addedNodes){
 		console.log(typeof addedNode);
@@ -203,16 +201,10 @@ const replacements = [
     ['wysiwyg', 'what you see is what you get'],
     ['yt', 'youtube/youtuber']
 ]
-// function processingStuff() {
-// 	for (let randomVar of document.body.getElementsByTagName("span")){
-// 		if(randomVar.childElementCount==0)
-// 			randomVar.innerHTML = randomVar.innerHTML.replace("brb","be right back");
-// 	}
-// }
+
 function processingStuff2(addedNode) {
 	for (let childElement of addedNode.children){
 		if(childElement.childElementCount==0){
-			//childElement.innerHTML = childElement.innerHTML.replace("brb","be right back");
 			for(let replacementPair of replacements){
 				let x = childElement.innerHTML.split(' ');
 				if(x[0]==replacementPair[0]){
