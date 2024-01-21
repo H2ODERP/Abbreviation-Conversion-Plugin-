@@ -90,6 +90,7 @@ module.exports = (_ => {
             'cu': 'see you',
             'cua': 'see you around',
             'cul': 'see you later',
+            'cuz' : 'because',
             'cya': 'see ya',
             'da f/dafuq?': 'what the fxxx?',
             'dae': 'does anyone else?',
