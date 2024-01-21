@@ -56,6 +56,7 @@ module.exports = (_ => {
             'afaik': 'as far as i know', 
             'afk': 'away from keyboard', 
             'aka': 'also known as', 
+            'alr' : 'alright/already',
             'asap': 'as soon as possible',
             'asf': 'as f***',
             'asl': 'as hell',
