@@ -223,6 +223,8 @@ module.exports = (_ => {
             'tmi': 'too much information',
             'ttyl': 'talk to you later',
             'tw': 'trigger warning',
+            'w' : 'with',
+            'w/o' : 'without',
             'w/e': 'whatever',
             'wtf': 'what the fxxx',
             'wyd': 'what are you doing',
