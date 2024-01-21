@@ -53,8 +53,7 @@ module.exports = (_ => {
             'abt2': 'about to', 
             'acc': 'actually', 
             'add': 'address', 
-            'afaik': 
-            'as far as i know', 
+            'afaik': 'as far as i know', 
             'afk': 'away from keyboard', 
             'aka': 'also known as', 
             'asap': 'as soon as possible',
